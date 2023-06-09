@@ -294,132 +294,319 @@ MonoBehaviour:
       _foot: {fileID: 0}
       _toes: {fileID: 0}
   _rigInfo:
+    _version: 1
     _avatar: {fileID: 474319650110039816}
-    _leftUpperArmLength: 0
-    _rightUpperArmLength: 0
-    _leftForearmLength: 0
-    _rightForearmLength: 0
-    _leftFingerUniversalLocalAxes:
-      _transform: {fileID: 5426456671779946721}
-      _localRight: {x: -0, y: -0, z: -1}
-      _localUp: {x: 0, y: -1, z: 0}
-      _localForward: {x: -1, y: -0, z: -0}
-      _universalToActualAxesRotation: {x: -0.7071068, y: -0, z: 0.7071068, w: 0}
-      _initialRotation: {x: 0.63565135, y: 0.6592362, z: -0.33655798, w: 0.21928035}
-      _initialLocalRotation: {x: 0.039005104, y: -0.077951096, z: -0.09432525, w: 0.9917182}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: -0.16247232, y: 1.2168685, z: 0.080916375}
-      _initialLocalPosition: {x: -0.059387933, y: -0.00000024288892, z: 0.0000000011920929}
-    _rightFingerUniversalLocalAxes:
-      _transform: {fileID: 7737990529583910158}
-      _localRight: {x: 0, y: 0, z: 1}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: -1, y: -0, z: -0}
-      _universalToActualAxesRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-      _initialRotation: {x: 0.65923625, y: 0.6356512, z: -0.2192803, w: 0.33655804}
-      _initialLocalRotation: {x: -0.039005075, y: -0.07795112, z: 0.094325244, w: 0.9917182}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0.16247222, y: 1.2168686, z: 0.0809162}
-      _initialLocalPosition: {x: -0.059387956, y: 0.0000002901256, z: -0.00000009894371}
-    _leftHandUniversalLocalAxes:
-      _transform: {fileID: 1379081688086553744}
-      _localRight: {x: -0.05755215, y: 0.0051832683, z: 0.99832904}
-      _localUp: {x: 0.08969906, y: 0.99596894, z: -0}
-      _localForward: {x: -0.9943048, y: 0.089549184, z: -0.057785094}
-      _universalToActualAxesRotation: {x: 0.03264974, y: 0.7265167, z: 0.030814562, w: 0.6856806}
-      _initialRotation: {x: -0.18301266, y: 0.18301266, z: 0.6830127, w: 0.6830127}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: -0.15, y: 1.3, z: 0}
-      _initialLocalPosition: {x: -0, y: 0, z: 0}
-    _rightHandUniversalLocalAxes:
-      _transform: {fileID: 224553239285659955}
-      _localRight: {x: 0.057552975, y: 0.0051831547, z: -0.99832904}
-      _localUp: {x: 0.08969584, y: -0.9959692, z: 0}
-      _localForward: {x: -0.994305, y: -0.089545965, z: -0.0577859}
-      _universalToActualAxesRotation: {x: -0.726517, y: -0.03264858, z: 0.68568045, w: 0.030813444}
-      _initialRotation: {x: -0.18301266, y: 0.18301266, z: 0.6830127, w: 0.6830127}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0.15, y: 1.3, z: 0}
-      _initialLocalPosition: {x: -0, y: 0, z: 0}
-    _leftArmUniversalLocalAxes:
-      _transform: {fileID: 0}
-      _localRight: {x: 1, y: 0, z: 0}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: 0, y: 0, z: 1}
-      _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0, y: 0, z: 0}
-      _initialLocalPosition: {x: 0, y: 0, z: 0}
-    _rightArmUniversalLocalAxes:
-      _transform: {fileID: 0}
-      _localRight: {x: 1, y: 0, z: 0}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: 0, y: 0, z: 1}
-      _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0, y: 0, z: 0}
-      _initialLocalPosition: {x: 0, y: 0, z: 0}
-    _leftForearmUniversalLocalAxes:
-      _transform: {fileID: 0}
-      _localRight: {x: 1, y: 0, z: 0}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: 0, y: 0, z: 1}
-      _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0, y: 0, z: 0}
-      _initialLocalPosition: {x: 0, y: 0, z: 0}
-    _rightForearmUniversalLocalAxes:
-      _transform: {fileID: 0}
-      _localRight: {x: 1, y: 0, z: 0}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: 0, y: 0, z: 1}
-      _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0, y: 0, z: 0}
-      _initialLocalPosition: {x: 0, y: 0, z: 0}
-    _leftClavicleUniversalLocalAxes:
-      _transform: {fileID: 0}
-      _localRight: {x: 1, y: 0, z: 0}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: 0, y: 0, z: 1}
-      _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0, y: 0, z: 0}
-      _initialLocalPosition: {x: 0, y: 0, z: 0}
-    _rightClavicleUniversalLocalAxes:
-      _transform: {fileID: 0}
-      _localRight: {x: 1, y: 0, z: 0}
-      _localUp: {x: 0, y: 1, z: 0}
-      _localForward: {x: 0, y: 0, z: 1}
-      _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
-      _initialPosition: {x: 0, y: 0, z: 0}
-      _initialLocalPosition: {x: 0, y: 0, z: 0}
-  _handPosesFoldout: 1
+    _leftArmInfo:
+      _avatar: {fileID: 474319650110039816}
+      _side: 0
+      _upperArmLength: 0
+      _forearmLength: 0
+      _fingerUniversalLocalAxes:
+        _transform: {fileID: 5426456671779946721}
+        _localRight: {x: -0, y: -0, z: -1}
+        _localUp: {x: 0, y: -1, z: 0}
+        _localForward: {x: -1, y: -0, z: -0}
+        _universalToActualAxesRotation: {x: -0.7071068, y: -0, z: 0.7071068, w: 0}
+        _initialRotation: {x: 0.63565135, y: 0.6592362, z: -0.33655798, w: 0.21928035}
+        _initialLocalRotation: {x: 0.039005104, y: -0.077951096, z: -0.09432525, w: 0.9917182}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: -0.16247232, y: 1.2168685, z: 0.080916375}
+        _initialLocalPosition: {x: -0.059387933, y: -0.00000024288892, z: 0.0000000011920929}
+      _handUniversalLocalAxes:
+        _transform: {fileID: 1379081688086553744}
+        _localRight: {x: -0.05755215, y: 0.0051832683, z: 0.99832904}
+        _localUp: {x: 0.08969906, y: 0.99596894, z: -0}
+        _localForward: {x: -0.9943048, y: 0.089549184, z: -0.057785094}
+        _universalToActualAxesRotation: {x: 0.03264974, y: 0.7265167, z: 0.030814562, w: 0.6856806}
+        _initialRotation: {x: -0.18301266, y: 0.18301266, z: 0.6830127, w: 0.6830127}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: -0.15, y: 1.3, z: 0}
+        _initialLocalPosition: {x: -0, y: 0, z: 0}
+      _armUniversalLocalAxes:
+        _transform: {fileID: 0}
+        _localRight: {x: 1, y: 0, z: 0}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: 0, y: 0, z: 1}
+        _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0, y: 0, z: 0}
+        _initialLocalPosition: {x: 0, y: 0, z: 0}
+      _forearmUniversalLocalAxes:
+        _transform: {fileID: 0}
+        _localRight: {x: 1, y: 0, z: 0}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: 0, y: 0, z: 1}
+        _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0, y: 0, z: 0}
+        _initialLocalPosition: {x: 0, y: 0, z: 0}
+      _clavicleUniversalLocalAxes:
+        _transform: {fileID: 0}
+        _localRight: {x: 1, y: 0, z: 0}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: 0, y: 0, z: 1}
+        _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0, y: 0, z: 0}
+        _initialLocalPosition: {x: 0, y: 0, z: 0}
+      _thumbInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 0
+        _finger: 1
+        _metacarpalInfo:
+          _length: 0
+          _radius: 0
+        _proximalInfo:
+          _length: 0.027674885
+          _radius: 0.01900309
+        _intermediateInfo:
+          _length: 0.03307883
+          _radius: 0.015422366
+        _distalInfo:
+          _length: 0.03769014
+          _radius: 0.01648709
+        _distalLocalTip: {x: -0.03769014, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.024875494, y: 0.01088148, z: -0}
+      _indexInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 0
+        _finger: 2
+        _metacarpalInfo:
+          _length: 0.059387915
+          _radius: 0.021543413
+        _proximalInfo:
+          _length: 0.033406325
+          _radius: 0.015791396
+        _intermediateInfo:
+          _length: 0.023907328
+          _radius: 0.014549743
+        _distalInfo:
+          _length: 0.028737681
+          _radius: 0.011165657
+        _distalLocalTip: {x: -0.028737681, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.01896687, y: 0.007369334, z: -0}
+      _middleInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 0
+        _finger: 3
+        _metacarpalInfo:
+          _length: 0.062340517
+          _radius: 0.024690177
+        _proximalInfo:
+          _length: 0.03904103
+          _radius: 0.015913041
+        _intermediateInfo:
+          _length: 0.029664835
+          _radius: 0.012604153
+        _distalInfo:
+          _length: 0.030050406
+          _radius: 0.0122183785
+        _distalLocalTip: {x: -0.030050406, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.019833269, y: 0.00806413, z: -0}
+      _ringInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 0
+        _finger: 4
+        _metacarpalInfo:
+          _length: 0.06095334
+          _radius: 0.017884936
+        _proximalInfo:
+          _length: 0.03657701
+          _radius: 0.011755365
+        _intermediateInfo:
+          _length: 0.028493257
+          _radius: 0.010404021
+        _distalInfo:
+          _length: 0.027229534
+          _radius: 0.011697965
+        _distalLocalTip: {x: -0.027229534, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.017971493, y: 0.007720657, z: -0}
+      _littleInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 0
+        _finger: 5
+        _metacarpalInfo:
+          _length: 0.05640323
+          _radius: 0.020459462
+        _proximalInfo:
+          _length: 0.03313168
+          _radius: 0.011589944
+        _intermediateInfo:
+          _length: 0.02183799
+          _radius: 0.009691996
+        _distalInfo:
+          _length: 0.024596777
+          _radius: 0.009345725
+        _distalLocalTip: {x: -0.024596777, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.016233873, y: 0.0061681787, z: -0}
+    _rightArmInfo:
+      _avatar: {fileID: 474319650110039816}
+      _side: 1
+      _upperArmLength: 0
+      _forearmLength: 0
+      _fingerUniversalLocalAxes:
+        _transform: {fileID: 7737990529583910158}
+        _localRight: {x: 0, y: 0, z: 1}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: -1, y: -0, z: -0}
+        _universalToActualAxesRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+        _initialRotation: {x: 0.65923625, y: 0.6356512, z: -0.2192803, w: 0.33655804}
+        _initialLocalRotation: {x: -0.039005075, y: -0.07795112, z: 0.094325244, w: 0.9917182}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0.16247222, y: 1.2168686, z: 0.0809162}
+        _initialLocalPosition: {x: -0.059387956, y: 0.0000002901256, z: -0.00000009894371}
+      _handUniversalLocalAxes:
+        _transform: {fileID: 224553239285659955}
+        _localRight: {x: 0.057552975, y: 0.0051831547, z: -0.99832904}
+        _localUp: {x: 0.08969584, y: -0.9959692, z: 0}
+        _localForward: {x: -0.994305, y: -0.089545965, z: -0.0577859}
+        _universalToActualAxesRotation: {x: -0.726517, y: -0.03264858, z: 0.68568045, w: 0.030813444}
+        _initialRotation: {x: -0.18301266, y: 0.18301266, z: 0.6830127, w: 0.6830127}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0.15, y: 1.3, z: 0}
+        _initialLocalPosition: {x: -0, y: 0, z: 0}
+      _armUniversalLocalAxes:
+        _transform: {fileID: 0}
+        _localRight: {x: 1, y: 0, z: 0}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: 0, y: 0, z: 1}
+        _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0, y: 0, z: 0}
+        _initialLocalPosition: {x: 0, y: 0, z: 0}
+      _forearmUniversalLocalAxes:
+        _transform: {fileID: 0}
+        _localRight: {x: 1, y: 0, z: 0}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: 0, y: 0, z: 1}
+        _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0, y: 0, z: 0}
+        _initialLocalPosition: {x: 0, y: 0, z: 0}
+      _clavicleUniversalLocalAxes:
+        _transform: {fileID: 0}
+        _localRight: {x: 1, y: 0, z: 0}
+        _localUp: {x: 0, y: 1, z: 0}
+        _localForward: {x: 0, y: 0, z: 1}
+        _universalToActualAxesRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialUniversalLocalReferenceRotation: {x: 0, y: 0, z: 0, w: 1}
+        _initialPosition: {x: 0, y: 0, z: 0}
+        _initialLocalPosition: {x: 0, y: 0, z: 0}
+      _thumbInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 1
+        _finger: 1
+        _metacarpalInfo:
+          _length: 0
+          _radius: 0
+        _proximalInfo:
+          _length: 0.02767498
+          _radius: 0.019003015
+        _intermediateInfo:
+          _length: 0.03307874
+          _radius: 0.015422232
+        _distalInfo:
+          _length: 0.037690148
+          _radius: 0.016486876
+        _distalLocalTip: {x: -0.037690148, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.0248755, y: -0.010881338, z: -0}
+      _indexInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 1
+        _finger: 2
+        _metacarpalInfo:
+          _length: 0.059387967
+          _radius: 0.021543391
+        _proximalInfo:
+          _length: 0.033406578
+          _radius: 0.015791206
+        _intermediateInfo:
+          _length: 0.023907226
+          _radius: 0.01454952
+        _distalInfo:
+          _length: 0.028737603
+          _radius: 0.011165633
+        _distalLocalTip: {x: -0.028737603, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.018966818, y: -0.007369318, z: -0}
+      _middleInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 1
+        _finger: 3
+        _metacarpalInfo:
+          _length: 0.06234079
+          _radius: 0.024690159
+        _proximalInfo:
+          _length: 0.039041143
+          _radius: 0.01591293
+        _intermediateInfo:
+          _length: 0.029665144
+          _radius: 0.012604028
+        _distalInfo:
+          _length: 0.030050507
+          _radius: 0.012218266
+        _distalLocalTip: {x: -0.030050507, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.019833336, y: -0.008064056, z: -0}
+      _ringInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 1
+        _finger: 4
+        _metacarpalInfo:
+          _length: 0.060953416
+          _radius: 0.017884968
+        _proximalInfo:
+          _length: 0.036576755
+          _radius: 0.011755373
+        _intermediateInfo:
+          _length: 0.028493537
+          _radius: 0.01040398
+        _distalInfo:
+          _length: 0.027229577
+          _radius: 0.011697946
+        _distalLocalTip: {x: -0.027229577, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.017971521, y: -0.0077206446, z: -0}
+      _littleInfo:
+        _avatar: {fileID: 474319650110039816}
+        _side: 1
+        _finger: 5
+        _metacarpalInfo:
+          _length: 0.056403063
+          _radius: 0.02045944
+        _proximalInfo:
+          _length: 0.033131484
+          _radius: 0.011589954
+        _intermediateInfo:
+          _length: 0.021837953
+          _radius: 0.009691978
+        _distalInfo:
+          _length: 0.024596775
+          _radius: 0.009345719
+        _distalLocalTip: {x: -0.024596775, y: -0, z: -0}
+        _distalLocalFingerPrintCenter: {x: -0.016233873, y: -0.0061681746, z: -0}
+  _handPosesFoldout: 0
   _handPoses:
   - {fileID: 11400000, guid: 362fb6cef5dd33147bde4826973409f1, type: 2}
   - {fileID: 11400000, guid: 35ada27abb29756408af02424b528e47, type: 2}
