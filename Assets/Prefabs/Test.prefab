@@ -98,7 +98,7 @@ PrefabInstance:
     - target: {fileID: 474319650110039816, guid: dc011efb41f2d4a419389aefb4b4270d, type: 3}
       propertyPath: _defaultHandPose
       value: 
-      objectReference: {fileID: 11400000, guid: e63026470ead0c24797daeef05a577bf, type: 2}
+      objectReference: {fileID: 11400000, guid: 35ada27abb29756408af02424b528e47, type: 2}
     - target: {fileID: 474319650110039816, guid: dc011efb41f2d4a419389aefb4b4270d, type: 3}
       propertyPath: _handPoses.Array.size
       value: 5
