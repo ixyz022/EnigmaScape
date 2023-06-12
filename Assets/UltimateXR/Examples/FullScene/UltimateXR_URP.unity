@@ -1035,6 +1035,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1641357804}
     m_Modifications:
+    - target: {fileID: 784917350162834952, guid: 6e63ad7f90834384dab066d8da8cabad, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6211529132545353894, guid: 6e63ad7f90834384dab066d8da8cabad, type: 3}
       propertyPath: m_Name
       value: ShootingRange
